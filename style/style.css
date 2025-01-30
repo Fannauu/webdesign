@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;600;700&display=swap');
 
 
 *{
@@ -211,15 +211,21 @@ main .table2 {
 }
 
 .table2 td:hover {
-    background-color: #a3c4f3;
+    background-color: #344e41;
+    color: white;
 }
 
 
-main .table2 .row4 {
+.table2 .hightlight {
     background-color: #FF006E;
-   
+    color: white;
+    font-weight: bold;
 }
 
+
+.row-color td:hover {
+    background-color: inherit !important;
+}
 
 .row-color {
     background-color: #FF006E;
@@ -227,9 +233,14 @@ main .table2 .row4 {
 }
 
 .row-color:hover {
-    background-color: #efcefa;
+    background-color: #003d5b;
+    font-weight: bolder;
+    color: white;
 }
 
+.row-color2 td:hover {
+    background-color: inherit !important;
+}
 
 .row-color2 {
     background-color: #FF006E;
@@ -237,10 +248,14 @@ main .table2 .row4 {
 }
 
 .row-color2:hover {
-    background-color: #efcefa;
+    background-color: #003d5b;
+    font-weight: bolder;
+    color: white;
 }
 
-
+.row-color3 td:hover {
+    background-color: inherit !important;
+}
 
 .row-color3 {
     background-color: #FF006E;
@@ -249,8 +264,11 @@ main .table2 .row4 {
 
 
 .row-color3:hover {
-    background-color: #efcefa;
+    background-color: #003d5b;
+    font-weight: bolder;
+    color: white;
 }
+
 
 footer .footer {
     padding: 10px;
