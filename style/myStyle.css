@@ -167,6 +167,24 @@ a {
     padding: 10px;
 }
 
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background: #FF006E;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 2px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 main {
     padding: 30px;
     font-family: "Montserrat", sans-serif;
@@ -200,24 +218,43 @@ main .table2 .row4 {
 }
 
 
-.row-color td {
+.row-color {
     background-color: #FF006E;
+    transition: all ease-in-out 0.9s;
 }
 
-.row-color td:hover{
-    background-color: #8338EC;
+.row-color:hover {
+    background-color: #efcefa;
 }
 
-.row-color2 td {
+
+.row-color2 {
     background-color: #FF006E;
-
+    transition: all ease-in-out 0.9s;
 }
+
+.row-color2:hover {
+    background-color: #efcefa;
+}
+
+
 
 .row-color3 {
     background-color: #FF006E;
-
+    transition: all ease-in-out 0.9s;
 }
 
+
 .row-color3:hover {
-    background-color: #8338EC;
+    background-color: #efcefa;
+}
+
+footer .footer {
+    padding: 10px;
+    background-color: #8ecae6;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Montserrat", "Poppins", sans-serif;
+    text-align: center;
+    color: white;
 }
