@@ -113,10 +113,6 @@ div{
 }
 
 
-
-
-
-
 .image-01:hover {
     background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0)),
     url("../images/image-01.jpg");
@@ -126,6 +122,8 @@ div{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)),
     url("../images/image-02.jpg");
     filter: brightness(70%);
+    /* background-blend-mode: darken; */
+
 }
 
 .image-03:hover {
@@ -169,6 +167,7 @@ a {
 
 
 button {
+    border: none;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -209,6 +208,10 @@ main .table2 {
     background-color: #3b1ff2;
     color: white;
   
+}
+
+.table2 td:hover {
+    background-color: #a3c4f3;
 }
 
 
